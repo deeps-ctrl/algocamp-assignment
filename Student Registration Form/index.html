@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Registration Form</title>
+  </head>
+  <body>
+    <header>
+      <h1>This is a student registration form Project using Simply HTML.</h1>
+      <br />
+      <hr />
+    </header>
+    <main>
+      <div class="form-heading">
+        <br />
+        <br />
+        <h2>Student Registration Form</h2>
+        <p>Please fill out the form below to register.</p>
+        <hr />
+      </div>
+      <form action="/" method="POST">
+        <fieldset>
+          <legend>Personal Information</legend>
+          <div>
+            <label for="first-name">First Name:</label>
+            <input type="text" name="first-name" id="first-name" required />
+          </div>
+
+          <br />
+
+          <div>
+            <label for="last-name">Last Name:</label>
+            <input type="text" name="last-name" id="last-name" required />
+          </div>
+
+          <br />
+
+          <div>
+            <label for="date-of-birth">Date of Birth:</label>
+            <input
+              type="date"
+              id="date-of-birth"
+              name="date-of-birth"
+              required
+            />
+          </div>
+
+          <br />
+
+          <div>
+            <label for="gender">Gender:</label>
+            <input type="radio" id="male" name="gender" />
+            <label for="male">Male</label>
+
+            <input type="radio" id="female" name="gender" />
+            <label for="female">Female</label>
+
+            <input type="radio" id="others" name="gender" />
+            <label for="others">Others</label>
+          </div>
+
+          <br />
+
+          <div>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" />
+          </div>
+
+          <br />
+
+          <div>
+            <label for="phone">Phone:</label>
+            <input type="text" id="phone" name="phone" />
+          </div>
+
+          <br />
+        </fieldset>
+        <hr />
+        <fieldset>
+          <legend>Address Information</legend>
+          <div>
+            <label for="address">Address:</label>
+            <br />
+            <textarea name="address" id="address" rows="5" cols="40"></textarea>
+          </div>
+          <br />
+          <div>
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city" />
+          </div>
+          <br />
+          <div>
+            <label for="state">State:</label>
+            <input type="text" id="state" name="state" />
+          </div>
+          <br />
+          <div>
+            <label for="zip-code">ZIP Code:</label>
+            <input type="text" id="zip-code" name="zip-code" />
+          </div>
+          <br />
+        </fieldset>
+        <hr />
+        <fieldset>
+          <legend>Educational Information</legend>
+          <div>
+            <label for="high-school">High School:</label>
+            <input type="text" id="high-school" name="high-school" />
+          </div>
+          <br />
+          <div>
+            <label for="gpa">GPA:</label>
+            <input type="text" id="gpa" name="gpa" />
+          </div>
+          <br />
+          <div>
+            <label for="intended-major">Intended Major:</label>
+            <input type="text" id="intended-major" name="intended-major" />
+          </div>
+          <br />
+          <div>
+            <label for="year-of-graduation">Year of Graduation:</label>
+            <input
+              type="text"
+              id="year-of-graduation"
+              name="year-of-graduation"
+            />
+          </div>
+          <br />
+        </fieldset>
+        <hr />
+        <fieldset>
+          <legend>Additional Information</legend>
+          <div>
+            <label for="interests-and-hobbies">Interests and Hobbies:</label>
+            <br />
+            <textarea
+              name="interests-and-hobbies"
+              id="interests-and-hobbies"
+              cols="40"
+              rows="5"
+            ></textarea>
+          </div>
+          <br />
+          <div>
+            <label for="additional-comments">Additional Comments:</label>
+            <br />
+            <textarea
+              name="additional-comments"
+              id="additional-comments"
+              cols="40"
+              rows="5"
+            ></textarea>
+          </div>
+        </fieldset>
+        <hr />
+        <input type="submit" value="Register" />
+      </form>
+      <hr />
+    </main>
+    <footer>
+      <p>&copy; 2024 Student Registrations. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
